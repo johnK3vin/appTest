@@ -10,7 +10,7 @@ function App() {
     <Router>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<HomePage/>}/>
+        <Route path='/appTest' element={<HomePage/>}/>
         <Route path="/test/emocional mente sano?" element={<TestSano/>}/>
         <Route path="/test/revela tu miedo" element={<TestMiedo/>}/>
         <Route path="/test/decubre animal totem" element={<TestAnimal/>} />

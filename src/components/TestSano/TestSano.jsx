@@ -46,7 +46,7 @@ if(isFinish) return (
           {respuestaIndex !== -1 && <div className='respuesta-escritura'>{respuesta[respuestaIndex].respuesta}</div>}
       </div>
       <div className='button-f'>
-        <Link to='/'>volver a inicio</Link>
+        <Link to='/appTest'>volver a inicio</Link>
       </div>
     </div>
   </div>
@@ -75,7 +75,7 @@ if(isFinish) return (
           ))}
         </div>
         <div className='res-buttons'>
-          <Link to='/'><BSexit/>Salir</Link>
+          <Link to='/appTest'><BSexit/>Salir</Link>
           <button onClick={reloadClick}><BSreset/></button>
         </div>
       </div>

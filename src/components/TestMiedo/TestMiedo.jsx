@@ -68,7 +68,7 @@ const TestMiedo = () => {
           ))}
         </div>
         <div className='res-buttons'>
-          <Link to='/'><BSexit/>Salir</Link>
+          <Link to='/appTest'><BSexit/>Salir</Link>
           <button ><BSreset/></button>
         </div>
       </div>

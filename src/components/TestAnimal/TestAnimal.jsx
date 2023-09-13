@@ -52,7 +52,7 @@ const TestAnimal = () => {
           {respuestaIndex !== -1 && <div className='respuesta-escritura-A'>{respuesta[respuestaIndex].opciones}</div>}
         </div>
         <div className='button-fA'>
-          <Link to='/'>volver a inicio</Link>
+          <Link to='/appTest'>volver a inicio</Link>
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ const TestAnimal = () => {
           ))}
         </div>
         <div className='res-buttons'>
-          <Link to='/'><BSexit/>Salir</Link>
+          <Link to='/appTest'><BSexit/>Salir</Link>
           <button ><BSreset/></button>
         </div>
       </div>
