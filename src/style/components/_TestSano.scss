@@ -129,7 +129,7 @@
         padding: 0;
         height: 100vh;
         padding-bottom: 30px;
-        align-items: start;
+        align-items: center;
 
         .app{
             margin-top: 20px;
@@ -140,7 +140,7 @@
                 justify-content: center;
                 .b-res{
                     min-width: 130px;
-                    width: auto;
+                    width: 50px;
                 }
             }
         }
