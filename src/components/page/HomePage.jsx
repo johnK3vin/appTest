@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 const HomePage = () => {
   const rutasImg = {
-    miedo : '../../../public/imgTestAnimal/miedo.jpg',
-    totem: '../../../public/imgTestAnimal/totemanimal.jpg'
+    miedo : '/appTest/imgTestAnimal/miedo.jpg',
+    totem: '/appTest/public/imgTestAnimal/totemanimal.jpg'
   }
   return (
     <div className="homeContainer">
