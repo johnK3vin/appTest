@@ -74,7 +74,7 @@ const TestAnimal = () => {
             <button className="res-A" 
             key={pregunta.respuesta} 
             onClick={() => point(pregunta.puntos)}
-            style={{backgroundImage: `url(${pregunta.img})`}}
+            style={{backgroundImage: `url(/appTest/${pregunta.img})`}}
             >{pregunta.respuesta}</button>
           ))}
         </div>
