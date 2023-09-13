@@ -46,7 +46,7 @@ const TestAnimal = () => {
           Test terminado
         </div>
         <div className='img-A'>
-          <img src={respuesta[respuestaIndex].img} alt="imagen de totem" />
+          <img src={`/appTest/${respuesta[respuestaIndex].img}`} alt="imagen de totem" />
         </div>
         <div className='titulo-fA'>
           {respuestaIndex !== -1 && <div className='respuesta-escritura-A'>{respuesta[respuestaIndex].opciones}</div>}
