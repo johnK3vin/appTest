@@ -46,7 +46,7 @@ const TestAnimal = () => {
           Test terminado
         </div>
         <div className='img-A'>
-          <img src={`/appTest/${respuesta[respuestaIndex].img}`} alt="imagen de totem" />
+          <img src={`/appTest${respuesta[respuestaIndex].img}`} alt="imagen de totem" />
         </div>
         <div className='titulo-fA'>
           {respuestaIndex !== -1 && <div className='respuesta-escritura-A'>{respuesta[respuestaIndex].opciones}</div>}
@@ -74,7 +74,7 @@ const TestAnimal = () => {
             <button className="res-A" 
             key={pregunta.respuesta} 
             onClick={() => point(pregunta.puntos)}
-            style={{backgroundImage: `url(/appTest/${pregunta.img})`}}
+            style={{backgroundImage: `url(/appTest${pregunta.img})`}}
             >{pregunta.respuesta}</button>
           ))}
         </div>
