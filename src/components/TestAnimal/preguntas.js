@@ -2,19 +2,19 @@ const preguntas = [
     {
         titulo: "Elige el paisaje que más te guste",
         opciones: [
-            {respuesta: "Sabana africana" , puntos: 2, img: '/imgTestAnimal/flora-sabana.jpg'},
-            {respuesta: "Flores Tropicales" , puntos: 3,img: '/imgTestAnimal/flores-tropicales.jpg'},
-            {respuesta: "Montañas nevadas" , puntos: 0, img: '/imgTestAnimal/montañas-nevadas.jpg'},
-            {respuesta: "Bosque de coníferas" , puntos: 1, img: '/imgTestAnimal/bosque-coniferas.jpg'},
+            {respuesta: "Sabana africana" , puntos: 2, img: '/appTest/imgTestAnimal/flora-sabana.jpg'},
+            {respuesta: "Flores Tropicales" , puntos: 3,img: '/appTest/imgTestAnimal/flores-tropicales.jpg'},
+            {respuesta: "Montañas nevadas" , puntos: 0, img: '/appTest/imgTestAnimal/montañas-nevadas.jpg'},
+            {respuesta: "Bosque de coníferas" , puntos: 1, img: '/appTest/imgTestAnimal/bosque-coniferas.jpg'},
         ]
     },
     {
         titulo: "¿Te sientes conectado con los animales?",
         opciones: [
-            {respuesta: "Nop" , puntos: 1, img: '/imgTestAnimal/negacion.jpg'},
-            {respuesta: "Por supuesto!" , puntos: 3, img: '/imgTestAnimal/aprobacion.jpg'},
-            {respuesta: "Bueno, eso depende.." , puntos: 2, img: '/imgTestAnimal/pensando.jpg'},
-            {respuesta: "Me gustan más que los humanos" , puntos: 0, img: '/imgTestAnimal/acarisiando.jpg'},
+            {respuesta: "Nop" , puntos: 1, img: '/appTest/imgTestAnimal/negacion.jpg'},
+            {respuesta: "Por supuesto!" , puntos: 3, img: '/appTest/imgTestAnimal/aprobacion.jpg'},
+            {respuesta: "Bueno, eso depende.." , puntos: 2, img: '/appTest/imgTestAnimal/pensando.jpg'},
+            {respuesta: "Me gustan más que los humanos" , puntos: 0, img: '/appTest/imgTestAnimal/acarisiando.jpg'},
         ]
     },
     {
