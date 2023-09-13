@@ -1,12 +1,12 @@
 {
-  "homepage": "https://johnK3vin.github.io/PersoQuiz",
   "name": "testpersonalidad",
   "private": true,
+  "homepage": "https://johnK3vin.github.io/appTest",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "dev": "vite",
