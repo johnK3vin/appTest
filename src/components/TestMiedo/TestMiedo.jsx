@@ -45,7 +45,7 @@ const TestMiedo = () => {
             {respuestaIndex !== -1 && <div className='respuesta-escritura-m'>{respuesta[respuestaIndex].opciones}</div>}
         </div>
         <div className='button-fm'>
-          <Link to='/'>volver a inicio</Link>
+          <Link to='/appTest'>volver a inicio</Link>
         </div>
       </div>
     </div>

@@ -11,9 +11,9 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/appTest' element={<HomePage/>}/>
-        <Route path="/test/emocional mente sano?" element={<TestSano/>}/>
-        <Route path="/test/revela tu miedo" element={<TestMiedo/>}/>
-        <Route path="/test/decubre animal totem" element={<TestAnimal/>} />
+        <Route path="/testSano" element={<TestSano/>}/>
+        <Route path="/testMiedo" element={<TestMiedo/>}/>
+        <Route path="/testTotemAnimal" element={<TestAnimal/>} />
       </Routes> 
     </Router>
   )
