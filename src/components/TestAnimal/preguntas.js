@@ -128,7 +128,7 @@ const preguntas = [
     {
         titulo: "¿Qué haces normalmente cuando te sientes molesto?",
         opciones: [
-            {respuesta: "Hablo con mi teraputa" , puntos: 0, img: '/imgTestAnimal/terapeuta.jpg'},
+            {respuesta: "Hablo con mi terapeuta" , puntos: 0, img: '/imgTestAnimal/terapeuta.jpg'},
             {respuesta: "Salgo al aire libre y practico algun deporte" , puntos: 1, img: '/imgTestAnimal/airelibre.jpg'},
             {respuesta: "Escucho música" , puntos: 3, img: '/imgTestAnimal/musica.jpg'},
             {respuesta: "Voy de compras" , puntos: 2, img: '/imgTestAnimal/compras.jpg'},

@@ -4,16 +4,18 @@ import TestSano from "./components/TestSano/TestSano"
 import NavBar from "./components/NavBar/NavBar"
 import TestMiedo from "./components/TestMiedo/TestMiedo"
 import TestAnimal from "./components/TestAnimal/TestAnimal"
+import NotFound from './NotFound'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <NavBar/>
       <Routes>
-        <Route path='/appTest' element={<HomePage/>}/>
-        <Route path="/testSano" element={<TestSano/>}/>
-        <Route path="/testMiedo" element={<TestMiedo/>}/>
-        <Route path="/testTotemAnimal" element={<TestAnimal/>} />
+        <Route path='/appTest/' element={<HomePage/>}/>
+        <Route path="/appTest/testSano" element={<TestSano/>}/>
+        <Route path="/appTest/testMiedo" element={<TestMiedo/>}/>
+        <Route path="/appTest/testTotemAnimal" element={<TestAnimal/>} />
+        <Route path="/*" element={<NotFound/>}/>
       </Routes> 
     </Router>
   )

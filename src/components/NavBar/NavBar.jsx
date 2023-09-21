@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <header className='headerNav'>
         <div className='nav'>
-            <Link to='/appTest'>App Test</Link>
+            <Link to='/appTest'>PersoTest</Link>
         </div>
     </header>
   )

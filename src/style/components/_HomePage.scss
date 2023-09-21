@@ -1,10 +1,22 @@
 .homeContainer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
     height: 100vh;
     padding: 30px 50px 30px 50px;
     background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+
+    .titleHome{
+        text-align: center;
+        color: white;
+        text-shadow: 0 0 1px black;
+        .span-t{
+            color: rgb(187, 0, 255);
+            text-shadow: 0 0 5px white;
+        }
+    }
+    .testContainer{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
     
     .Test-sano{
         margin: 20px;
